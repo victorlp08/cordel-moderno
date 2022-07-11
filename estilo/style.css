@@ -19,30 +19,30 @@ body, html {
   height: 100vh;
 }
 
-nav {
+header {
   background-color: black;
   color: white;
   text-align: center;
 }
 
-nav h1 {
+header h1 {
   font-family: var(--fonte01);
   font-size: 8vh;
   padding-top: 50px;
   font-variant: small-caps;
 }
 
-nav p {
+header p {
   padding-bottom: 50px;
 }
 
-nav a, footer a {
+header a, footer a {
   text-decoration: none;
   color: white;
   font-weight: bolder;
 }
 
-nav a:hover, footer a:hover {
+header a:hover, footer a:hover {
   text-decoration: underline;
 }
 
